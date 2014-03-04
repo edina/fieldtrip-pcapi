@@ -8,8 +8,23 @@ The following outlines the steps need to run the pcapi-local wifi test.
 * A supported [wifi device and driver](https://virtualrouter.codeplex.com/wikipage?title=Supported%20Devices&referringTitle=Documentation).
 * Administrator Access.
 * [Open port 80](http://windows.microsoft.com/en-us/windows/open-port-windows-firewall#1TC=windows-7) on firewall.
+* python version 2.7.x [installed](http://www.python.org/download/releases/2.7.6/) and corectly [configured].
+* [easy_install](https://pypi.python.org/pypi/setuptools#windows)
 
 ### Set Up
 
-* Fetch and unzip [wifi test zip file](http://fieldtripgb.edina.ac.uk/pcapilocal/wifi-test.zip).
-* Navigate to installed location, right click on run batch file and choose `Run as administrator`.
+* Install Virtualenv
+
+```
+C:\easy_install virtualenv
+```
+
+*
+* Insert USB stick, navigate to the mounted location and right click on run batch file and choose `Run as administrator`.
+
+
+### Install Client
+
+### Run Test
+
+### Clean Up
