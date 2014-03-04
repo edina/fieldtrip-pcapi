@@ -33,7 +33,12 @@ C:\easy_install virtualenv
 
 ### Run Test
 
-* Open Fieldtrip GB (Bierton)
-* Click on
+* Open Fieldtrip GB (Bierton).
+* Click on the `Test Virtual Wifi` button on the home page.
+* A Success GET and POST will be reported if successful.
+* A text file POSTed from the client named post.txt is created in wifi-test/pcapi/
 
 ### Clean Up
+
+* Disable Virtual Wifi Adapter created above.
+* Disable firewall rule created above.
