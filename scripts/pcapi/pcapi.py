@@ -1,10 +1,11 @@
 import os
 
-from bottle import get, post, request, route, run, template
+from bottle import get, post, request, response, route, run, template
 
 @route('/pcapi/', method=["GET","POST"])
 def index():
     print request
+    response.content_type = 'text/plain'
     if request.method == 'POST':
         pth = os.path.abspath(__file__)
         print pth.rfind("\\")
@@ -13,7 +14,6 @@ def index():
         f.write(request.body.read())
         f.close()
         print request.body.read()
-        print __file__
         return 'Successful POST!'
     else:
         return 'Successful GET!'

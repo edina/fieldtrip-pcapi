@@ -20,10 +20,9 @@ C:\easy_install virtualenv
 ```
 
 * Download wifi-test [zip file](http://fieldtripgb.edina.ac.uk/pcapilocal/wifi-test.zip) and `Extract All`.
-* In windows explorer navigate to the mounted location and double click on `install` batch file.
-* Right click on `run` batch file and choose `Run as administrator`.
+* In windows explorer navigate to the installed location and double click on `install` batch file.
+* Right click on the `run` batch file and choose `Run as administrator`.
 * Navigate to Control Panel -> Network and Internet -> Network and Connection and ensure there is a Wireless Network Connection with an SSID of `ft-test` and Media State `Enabled`.
-*
 
 ### Install Client
 
@@ -36,7 +35,7 @@ C:\easy_install virtualenv
 * Open Fieldtrip GB (Bierton).
 * Click on the `Test Virtual Wifi` button on the home page.
 * A Success GET and POST will be reported if successful.
-* A text file POSTed from the client named post.txt is created in wifi-test/pcapi/
+* A text file POSTed from the client named post.txt is created in `wifi-test\pcapi`
 
 ### Clean Up
 
